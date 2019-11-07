@@ -188,7 +188,7 @@ public:
         timedir << "_t_" << simulation_length;
 
         
-        std::string output_directory = "TestLiverMets" +  simdir.str() + "/"  + rundir.str() + "/" + timedir.str();
+        std::string output_directory = "TestLiverMets/" +  simdir.str() + "/"  + rundir.str() + "/" + timedir.str();
 
 		simulator.SetOutputDirectory(output_directory);
 		// ********************************************************************************************

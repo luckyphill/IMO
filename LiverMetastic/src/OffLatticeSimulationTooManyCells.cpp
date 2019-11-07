@@ -17,6 +17,12 @@ bool OffLatticeSimulationTooManyCells::StoppingEventHasOccurred()
 		TRACE("Stopped because the number of cells exceeded the limit")
 		return true;
 	}
+
+	if (cell_count == 0)
+	{
+		TRACE("Stopped because of extinction")
+		return true;
+	}
 	return false;
 }
 
