@@ -26,7 +26,8 @@
 //Cell cycle models
 #include "NoCellCycleModel.hpp"
 #include "UniformCellCycleModel.hpp"
-#include "ChemoResistantCCM.hpp"
+#include "SimpleOxygenBasedCellCycleModel.hpp"
+#include "SimpleOxygenBasedCellCycleModel.hpp"
 // TumourDivision range
 
 // Mutation State
@@ -47,13 +48,13 @@
 
 #include "CellCountWriter.hpp"
 
-class TestLiverMets : public AbstractCellBasedTestSuite
+class TestLiverMetsOxygen : public AbstractCellBasedTestSuite
 {
 	
 public:
 
 
-	void TestGrowMets() throw(Exception)
+	void TestGrowMetsOxygen() throw(Exception)
 	{
 
 		// ********************************************************************************************
@@ -141,7 +142,7 @@ public:
 		MAKE_PTR(WildTypeCellMutationState, p_state);
 
 		{
-			ChemoResistantCCM* p_cycle_model = new ChemoResistantCCM();
+			SimpleOxygenBasedCellCycleModel* p_cycle_model = new SimpleOxygenBasedCellCycleModel();
 			// Just using the CI model because it has phase based stuff
 
 			CellPtr p_cell(new Cell(p_state, p_cycle_model));
@@ -153,8 +154,9 @@ public:
 			p_cycle_model->SetTransitCellG1Duration(10);
 			p_cycle_model->SetG2Duration(1);
 
-			p_cycle_model->SetBaseChemoResistance(0.5);
-			p_cycle_model->SetResistanceDrift(0.01);
+			p_cycle_model->SetHypoxicConcentration(0.2);
+			p_cycle_model->SetQuiescentConcentration(.6);
+			p_cycle_model->SetCriticalHypoxicDuration(10000);
 
 			p_cell->InitialiseCellCycleModel();
 
@@ -239,3 +241,4 @@ public:
 
 
 
+}

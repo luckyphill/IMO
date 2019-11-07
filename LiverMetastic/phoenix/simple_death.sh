@@ -31,8 +31,8 @@ do
 done < death_test.txt 
 
 if [ $found = 1 ]; then
-	echo "/home/a1738927/fastdir/chaste_build/projects/LiverMetastic/test/TestLiverMets -sm 10 -run $run -id $id -bd $bd -t 1000"
-    /home/a1738927/fastdir/chaste_build/projects/LiverMetastic/test/TestLiverMets -sm 10 -run $run -id $id -bd $bd -t 1000
+	echo "/home/a1738927/fastdir/chaste_build/projects/LiverMetastic/test/TestLiverMets -sm 10 -run $run -id $id -bd $bd -t 1000 -bt 100"
+    /home/a1738927/fastdir/chaste_build/projects/LiverMetastic/test/TestLiverMets -sm 10 -run $run -id $id -bd $bd -t 1000 -bt 100
 else 
   echo "death_test.txt  does not have enough parameters for $SLURM_ARRAY_TASK_ID index" 
 fi
