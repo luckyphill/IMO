@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian" header_type="UInt32" compressor="vtkZLibDataCompressor">
+  <UnstructuredGrid>
+    <Piece NumberOfPoints="7"                    NumberOfCells="0"                   >
+      <PointData>
+        <DataArray type="Float64" Name="Cell types" format="appended" RangeMin="1"                    RangeMax="1"                    offset="0"                   />
+        <DataArray type="Float64" Name="Process rank" format="appended" RangeMin="0"                    RangeMax="0"                    offset="48"                  />
+      </PointData>
+      <CellData>
+      </CellData>
+      <Points>
+        <DataArray type="Float64" Name="Vertex positions" NumberOfComponents="3" format="appended" RangeMin="0.16659806403"        RangeMax="1.1192762289"         offset="88"                  />
+      </Points>
+      <Cells>
+        <DataArray type="Int64" Name="connectivity" format="appended" RangeMin=""                     RangeMax=""                     offset="296"                 />
+        <DataArray type="Int64" Name="offsets" format="appended" RangeMin=""                     RangeMax=""                     offset="312"                 />
+        <DataArray type="UInt8" Name="types" format="appended" RangeMin=""                     RangeMax=""                     offset="328"                 />
+      </Cells>
+    </Piece>
+  </UnstructuredGrid>
+  <AppendedData encoding="base64">
+   _AQAAAACAAAA4AAAAEAAAAA==eJxjYACBD/YMJNIA1ekISg==AQAAAACAAAA4AAAADAAAAA==eJxjYCAPAAAAOAABAQAAAACAAACoAAAAiQAAAA==eJw7dd17w9Yvz+1PB3rMfTH18X4GKLhwed6cbx+v2e9d/1jj2a4P9jDxizFXtF6mfdg/P+GYic/Fw3D1c9azP+5b+Wi/z4kLKbN9n8HVm61ZOf3e/X32B5Lqlnrk7IWL/43RPMIi/NGe4frh3obZV+HiPL6b8j5+Pr//sphP6wHO53DzAScBQpY=AAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAA
+  </AppendedData>
+</VTKFile>
+
+<!-- Created by Chaste version 2018.1.535b2db (with uncommitted modifications) on Wed, 06 Nov 2019 23:17:36 +0000.  Chaste was built on Thu, 07 Nov 2019 07:43:15 +0000 by machine (uname) 'Darwin' using settings: Debug.  Checked-out project versions: ChasteMembrane=Unknown; EpithelialFission=27528M; LabellingIndex=Unknown; LiverMetastic=Unknown; YeastColumn=Unknown.
+-->

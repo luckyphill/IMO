@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian" header_type="UInt32" compressor="vtkZLibDataCompressor">
+  <UnstructuredGrid>
+    <Piece NumberOfPoints="88"                   NumberOfCells="0"                   >
+      <PointData>
+        <DataArray type="Float64" Name="Cell types" format="appended" RangeMin="1"                    RangeMax="1"                    offset="0"                   />
+        <DataArray type="Float64" Name="Process rank" format="appended" RangeMin="0"                    RangeMax="0"                    offset="52"                  />
+      </PointData>
+      <CellData>
+      </CellData>
+      <Points>
+        <DataArray type="Float64" Name="Vertex positions" NumberOfComponents="3" format="appended" RangeMin="0.13713201439"        RangeMax="4.9242105253"         offset="96"                  />
+      </Points>
+      <Cells>
+        <DataArray type="Int64" Name="connectivity" format="appended" RangeMin=""                     RangeMax=""                     offset="2148"                />
+        <DataArray type="Int64" Name="offsets" format="appended" RangeMin=""                     RangeMax=""                     offset="2164"                />
+        <DataArray type="UInt8" Name="types" format="appended" RangeMin=""                     RangeMax=""                     offset="2180"                />
+      </Cells>
+    </Piece>
+  </UnstructuredGrid>
+  <AppendedData encoding="base64">
+   _AQAAAACAAADAAgAAFAAAAA==eJxjYACBD/YMo/QoPQRpAFwaaCk=AQAAAACAAADAAgAADwAAAA==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
+  </AppendedData>
+</VTKFile>
+
+<!-- Created by Chaste version 2018.1.535b2db (with uncommitted modifications) on Wed, 06 Nov 2019 23:17:46 +0000.  Chaste was built on Thu, 07 Nov 2019 07:43:15 +0000 by machine (uname) 'Darwin' using settings: Debug.  Checked-out project versions: ChasteMembrane=Unknown; EpithelialFission=27528M; LabellingIndex=Unknown; LiverMetastic=Unknown; YeastColumn=Unknown.
+-->

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian" header_type="UInt32" compressor="vtkZLibDataCompressor">
+  <UnstructuredGrid>
+    <Piece NumberOfPoints="89"                   NumberOfCells="0"                   >
+      <PointData>
+        <DataArray type="Float64" Name="Cell types" format="appended" RangeMin="1"                    RangeMax="1"                    offset="0"                   />
+        <DataArray type="Float64" Name="Process rank" format="appended" RangeMin="0"                    RangeMax="0"                    offset="52"                  />
+      </PointData>
+      <CellData>
+      </CellData>
+      <Points>
+        <DataArray type="Float64" Name="Vertex positions" NumberOfComponents="3" format="appended" RangeMin="0.12761561096"        RangeMax="4.9507926626"         offset="96"                  />
+      </Points>
+      <Cells>
+        <DataArray type="Int64" Name="connectivity" format="appended" RangeMin=""                     RangeMax=""                     offset="2168"                />
+        <DataArray type="Int64" Name="offsets" format="appended" RangeMin=""                     RangeMax=""                     offset="2184"                />
+        <DataArray type="UInt8" Name="types" format="appended" RangeMin=""                     RangeMax=""                     offset="2200"                />
+      </Cells>
+    </Piece>
+  </UnstructuredGrid>
+  <AppendedData encoding="base64">
+   _AQAAAACAAADIAgAAFAAAAA==eJxjYACBD/YMo/QoPYRpAJ+uaVg=AQAAAACAAADIAgAADwAAAA==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
+  </AppendedData>
+</VTKFile>
+
+<!-- Created by Chaste version 2018.1.535b2db (with uncommitted modifications) on Wed, 06 Nov 2019 23:17:47 +0000.  Chaste was built on Thu, 07 Nov 2019 07:43:15 +0000 by machine (uname) 'Darwin' using settings: Debug.  Checked-out project versions: ChasteMembrane=Unknown; EpithelialFission=27528M; LabellingIndex=Unknown; LiverMetastic=Unknown; YeastColumn=Unknown.
+-->

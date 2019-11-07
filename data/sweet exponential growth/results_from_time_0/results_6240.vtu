@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian" header_type="UInt32" compressor="vtkZLibDataCompressor">
+  <UnstructuredGrid>
+    <Piece NumberOfPoints="11"                   NumberOfCells="0"                   >
+      <PointData>
+        <DataArray type="Float64" Name="Cell types" format="appended" RangeMin="1"                    RangeMax="1"                    offset="0"                   />
+        <DataArray type="Float64" Name="Process rank" format="appended" RangeMin="0"                    RangeMax="0"                    offset="48"                  />
+      </PointData>
+      <CellData>
+      </CellData>
+      <Points>
+        <DataArray type="Float64" Name="Vertex positions" NumberOfComponents="3" format="appended" RangeMin="0.30283702746"        RangeMax="1.7064906913"         offset="88"                  />
+      </Points>
+      <Cells>
+        <DataArray type="Int64" Name="connectivity" format="appended" RangeMin=""                     RangeMax=""                     offset="392"                 />
+        <DataArray type="Int64" Name="offsets" format="appended" RangeMin=""                     RangeMax=""                     offset="408"                 />
+        <DataArray type="UInt8" Name="types" format="appended" RangeMin=""                     RangeMax=""                     offset="424"                 />
+      </Cells>
+    </Piece>
+  </UnstructuredGrid>
+  <AppendedData encoding="base64">
+   _AQAAAACAAABYAAAAEAAAAA==eJxjYACBD/YMVKYBIJMNBg==AQAAAACAAABYAAAADAAAAA==eJxjYKANAAAAWAABAQAAAACAAAAIAQAA0AAAAA==eJzLOejt0qr8yb7ZV2P7I57b+xmgQMzu57ol5y/Zb33Te8Kj/Jk9TPyy3aQli8S/7TfeMVNlue1uuPqFj+YzXrr8cP/2Mx0iiTcvw9Wf2y9sz9d63l51qYSo7IRjcPWxXtJKX/483N87z8FeuuYpXPx/getOlicP9i9/eWSq6vnPcHO8VgtFy+detd9z+Vz2l6O/4OIcDZIyx1yv2X/KLGO+dPMj3JzDGry1ElGf7B8IpKv82fUBrl5D4Mppk8Xf9t/Q2GD279pruDgAMoJeQA==AAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAA
+  </AppendedData>
+</VTKFile>
+
+<!-- Created by Chaste version 2018.1.535b2db (with uncommitted modifications) on Wed, 06 Nov 2019 23:17:37 +0000.  Chaste was built on Thu, 07 Nov 2019 07:43:15 +0000 by machine (uname) 'Darwin' using settings: Debug.  Checked-out project versions: ChasteMembrane=Unknown; EpithelialFission=27528M; LabellingIndex=Unknown; LiverMetastic=Unknown; YeastColumn=Unknown.
+-->

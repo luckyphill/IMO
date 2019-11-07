@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian" header_type="UInt32" compressor="vtkZLibDataCompressor">
+  <UnstructuredGrid>
+    <Piece NumberOfPoints="80"                   NumberOfCells="0"                   >
+      <PointData>
+        <DataArray type="Float64" Name="Cell types" format="appended" RangeMin="1"                    RangeMax="1"                    offset="0"                   />
+        <DataArray type="Float64" Name="Process rank" format="appended" RangeMin="0"                    RangeMax="0"                    offset="52"                  />
+      </PointData>
+      <CellData>
+      </CellData>
+      <Points>
+        <DataArray type="Float64" Name="Vertex positions" NumberOfComponents="3" format="appended" RangeMin="0.15956175005"        RangeMax="4.8036057359"         offset="96"                  />
+      </Points>
+      <Cells>
+        <DataArray type="Int64" Name="connectivity" format="appended" RangeMin=""                     RangeMax=""                     offset="1976"                />
+        <DataArray type="Int64" Name="offsets" format="appended" RangeMin=""                     RangeMax=""                     offset="1992"                />
+        <DataArray type="UInt8" Name="types" format="appended" RangeMin=""                     RangeMax=""                     offset="2008"                />
+      </Cells>
+    </Piece>
+  </UnstructuredGrid>
+  <AppendedData encoding="base64">
+   _AQAAAACAAACAAgAAFAAAAA==eJxjYACBD/YMo/QoPQA0AJRLXrE=AQAAAACAAACAAgAADwAAAA==eJxjYBgFo2DgAAACgAABAQAAAACAAACABwAAbgUAAA==eJxNlXs4lGkYxufAzJgZTbGUpbQ1ZGhNVIrwfqUiKocVLVmisNSVK4eUySokNWiLKTl10GF0YFYqtsv32SXnySHk1K7TYGuYDFOGxv6z3m+/P3/Xc93P/dzX9zyvQcpQzVlbNWQUvbrgHa9ECf99RdXtPqU0CZoZur5po+UgWOQzsvGrCWUKVFy49qUgWAr52CC3s/McAVneWLrXz0MKdVKdHfV02WRMJp5KOhhJwha5RV1WHuMIDVMsb62/GaWOLPLN1IixnL5PQCa67kTvoEH+zrd7V/rlZhCVPLajpl0T6pToidYl8eiIF4jYV2Unh35ituplplozsWndFXEsAga5rn1R5p6aYTRKeFFLlKGAPNL1benhFin48Y+cV0rBNOT2FheljIf1wMne7kmquxzO1fP60uGFySlg+a7B7ih3KfQZ8qDS6MuGKUD1jQ/fL8XnTTwvLX++ogNMfk/FpLu1YL2V441wHQciBuI4V0lVeN88HelQCGMJksu/JfcO6Id93/QyCsR5Y2hOKb913T0x5FfMjatXujAxsenDQ83T/0D+iMQJmxTREG7F6IkoOhn6SRsvC3r9Ax0LIuyO3nvjK6ynMdKaDXhEjH1+v4imR4I+C09xrlUvyFGTaFPfkEf4XFFm6xy/K5ABp4n3c4lhRFifcP8Oh2xQCnJ+rU+YdZLBuT6O1jpOVvSja4MtpzscNWB9MpHsua++HdgOl5u1qZh4Pmc6nj0woSBb6lj2Z7IokEtNytdnestBdH9lLM+dDv0s+PgT40u7AWslc+2pngU4F6txZOL3RCKy3fpIRZpzNuT5j9VtngaGogFVkdTc8Gro062mMpgiZiHGGm1gq8ffkLO/xHISuinYfGKh560Do5APG2QlkUlTaExlqF1P4weoL7vX0smWyNGAOgHVbYQB/WtwJYb+gZrY8fYlTcKzn6AOy7y15ThvBgQ1BsyT1zyB3GGObLb1OgNhm2gmf6lWQH0m+i3fs0Edow61mUacaIO82ComYdC5H+3ixuY7k2ch37JrGf+9txJs/KgaOcoch/rrCZc0dH4aQXMljVnMVA2YZ2D0TQGHrwSrs2z+rHWZw+9D2W+e1o1qiCJxhLpm4CvUeZjGXR4iHkCPreApiy1IcF61qsx8cE+FjkZ0b3lai/uxJaf3aWYTkN7NRs/ll9VgXyZy23cfg4DMG4eWxr3Bc7tvfay/07oBZBxuemG0F++b0fNzodRjAjzbhIYcPD0D9RkF5aLVKTNo3rOlpvfd8Tuzcj6SYiJpA64Ci96kNJwLVRwrK0t1LL5QKhxwwvf9TAuXMW02iJZ1HRIWXPjfvpte6dbXVgG+0Lood4ca5A1uxinstCWYIrnEsyuIAPlTw1od0fZ5UBz/+ED6ZiX0H3YpTa17+i1At+3ZoOykwBxsdPW7dusTsciNO3PzeB2w3sW6XTfRqBuN1dwzLkHxfVQIY9Wa+iiID8mq19xQAv1H+HvJiJpDIOWzxmnNkl7I2cNO2R7pNGQVryhHNSiG+r4Er2Ph5FHQSgdW+aS/IG96p3TluyvQWDaio+qbx98F11CvbxhMxE0/MuXcJvwOvBwRzB39RYXud727arXfCOwb0zN0LohHxXySdunb2M5BnZMhWR/M4ubQqPMOs9sH8JwfOLYFD/sQMYdrWIbeMH437gYUa70QkJELubV5dYn4e/TCX/eKlP4ZTdim3nGEXwK5tt+sq9hPC5PXn9xWkonf/9sEWfXb7GWYNpdRu3OiF/KbAifFR+EUSswvJgSy8P+WIyoLuxM0h5LMn1+ocKHB/CkRjXR9yQzgJweqtK/h+a+afZUBdJtRup6hXZ4/nsO/quxyqQ==AAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAA
+  </AppendedData>
+</VTKFile>
+
+<!-- Created by Chaste version 2018.1.535b2db (with uncommitted modifications) on Wed, 06 Nov 2019 23:17:46 +0000.  Chaste was built on Thu, 07 Nov 2019 07:43:15 +0000 by machine (uname) 'Darwin' using settings: Debug.  Checked-out project versions: ChasteMembrane=Unknown; EpithelialFission=27528M; LabellingIndex=Unknown; LiverMetastic=Unknown; YeastColumn=Unknown.
+-->

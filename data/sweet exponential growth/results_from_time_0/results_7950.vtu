@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian" header_type="UInt32" compressor="vtkZLibDataCompressor">
+  <UnstructuredGrid>
+    <Piece NumberOfPoints="27"                   NumberOfCells="0"                   >
+      <PointData>
+        <DataArray type="Float64" Name="Cell types" format="appended" RangeMin="1"                    RangeMax="1"                    offset="0"                   />
+        <DataArray type="Float64" Name="Process rank" format="appended" RangeMin="0"                    RangeMax="0"                    offset="48"                  />
+      </PointData>
+      <CellData>
+      </CellData>
+      <Points>
+        <DataArray type="Float64" Name="Vertex positions" NumberOfComponents="3" format="appended" RangeMin="0.40201702373"        RangeMax="3.2146241905"         offset="88"                  />
+      </Points>
+      <Cells>
+        <DataArray type="Int64" Name="connectivity" format="appended" RangeMin=""                     RangeMax=""                     offset="768"                 />
+        <DataArray type="Int64" Name="offsets" format="appended" RangeMin=""                     RangeMax=""                     offset="784"                 />
+        <DataArray type="UInt8" Name="types" format="appended" RangeMin=""                     RangeMax=""                     offset="800"                 />
+      </Cells>
+    </Piece>
+  </UnstructuredGrid>
+  <AppendedData encoding="base64">
+   _AQAAAACAAADYAAAAEQAAAA==eJxjYACBD/YMw4wGADZoH/Y=AQAAAACAAADYAAAADAAAAA==eJxjYBieAAAA2AABAQAAAACAAACIAgAA7AEAAA==eJy76nTL5cTKb/Y/WrvXTba7u58BCr4l/duln/5gv1Z9e2K7xzW4+PkLKW0MRz7tT3x93Nfn1md7mLjtIsVp/N/u2mfNyAtdx3MTrn5H68JtL11e7Zdd5u5uV/QFLv5ibdGWp9+/7ufXaLG45MDuABPfvYExfdPmT/aPflq8MVn6G24+RzTH5pawF/bvz2zeqFD2H25O/C2dS3vD/9qXtGj/U/zyBq7+irbgiVleDAcCpnoFaYt+gIuzfNgq62R3a/8D8bkCjsnf4eJvkneyuka8te9VVp963Q5hTuODN5lM03fYM76dUXs46xPcXs3fSmmyXRftu5SlvnGnMsLdv8L5U7RoyAd7c6emQ/6eCPUcm26UZ8Q937/nBt+x3fsR6oWLn6faaj3YL6h47HSxxGO4vTccHu1Xb2N0eBmdmB77axbcHBWO7z8Ezn3Zb/vKtvHprMtw9X8mVKk9PsZ4YFvs5mmsrqvg4tsuJ3FtVmdwKFvAxGh17SPcnAZTwx0rtnzf/6h/spyE12O4+J7m6csk9H7vPxKncIih+z/cnFWGhdndD07uf25vctomjuEATHz7yQ+xF+adttcMq9DJ3HoVrv7BmmXCdZqX7A9anCxZ8BORTnJYtPjeXP9k731rrf0n89NwcQClg+CyAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAA
+  </AppendedData>
+</VTKFile>
+
+<!-- Created by Chaste version 2018.1.535b2db (with uncommitted modifications) on Wed, 06 Nov 2019 23:17:39 +0000.  Chaste was built on Thu, 07 Nov 2019 07:43:15 +0000 by machine (uname) 'Darwin' using settings: Debug.  Checked-out project versions: ChasteMembrane=Unknown; EpithelialFission=27528M; LabellingIndex=Unknown; LiverMetastic=Unknown; YeastColumn=Unknown.
+-->

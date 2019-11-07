@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian" header_type="UInt32" compressor="vtkZLibDataCompressor">
+  <UnstructuredGrid>
+    <Piece NumberOfPoints="72"                   NumberOfCells="0"                   >
+      <PointData>
+        <DataArray type="Float64" Name="Cell types" format="appended" RangeMin="1"                    RangeMax="1"                    offset="0"                   />
+        <DataArray type="Float64" Name="Process rank" format="appended" RangeMin="0"                    RangeMax="0"                    offset="52"                  />
+      </PointData>
+      <CellData>
+      </CellData>
+      <Points>
+        <DataArray type="Float64" Name="Vertex positions" NumberOfComponents="3" format="appended" RangeMin="0.44503203942"        RangeMax="4.4284281025"         offset="96"                  />
+      </Points>
+      <Cells>
+        <DataArray type="Int64" Name="connectivity" format="appended" RangeMin=""                     RangeMax=""                     offset="1800"                />
+        <DataArray type="Int64" Name="offsets" format="appended" RangeMin=""                     RangeMax=""                     offset="1816"                />
+        <DataArray type="UInt8" Name="types" format="appended" RangeMin=""                     RangeMax=""                     offset="1832"                />
+      </Cells>
+    </Piece>
+  </UnstructuredGrid>
+  <AppendedData encoding="base64">
+   _AQAAAACAAABAAgAAFAAAAA==eJxjYACBD/YMo/QoTQYNACqpVTk=AQAAAACAAABAAgAADwAAAA==eJxjYBgFo4B8AAACQAABAQAAAACAAADABgAA7AQAAA==eJxFlHtQE1cUhxNiInkKIeooUSjijApqGaO0VLgrUCBiUUEUsMWK09ZaoxYEgVIkIvgoQhmTtEJrsRWoA1JEWhgRdmOQqjzlJREQIgQSEZAQHiYB+k89u39+c+Y7v3P23utoyqSM59KwsshC/zXlb3HK/1+AKSpkfIURn54T5x/sykXv+IjV3eM3syfxXZdf7d3/ix745Xw/l+eSedTunUqtZo6AR7LBfUOBO40oaunsz4ukEu84o9u71LeEQfRvvCry5Vtj77g56UKsKHkCFesCaU48krPq40yvH7ei4+nFrT1jHPAUb0qUKlQ0rFb7hzKbPQZ5tNz8uSvZXMJNTGM6n2oC7pI3dadfr8GFCxK7jOVG4Nt8Mj26KseQ27mYXLuySeB/OzSrNr4owBNN1jz5rAHmqog4JEkan0BPucmXopKWQM6bx2aQ5GsDKnd5MGg2WUFOxXurlQP6FjRBFT/PK7GFentehSnVi0KEJ4jVU1Sy79ssXsK33VzswfF1h0Rr+qCvzOWmV5hIg78xPBz4h68Bzv/JQShI4BBTwY/4J5bpgQu+aBxaG2GNyRSeww7VZJ6svhpf59ssQs9R+2oPWKD+3AdPkLiASpSI2JaYQirkRDMv5B5GI9424NA0X0d6XBfJlKeH3qDwlYUplnYK1OdF7XUX9tYi+pLIl0VDr2CukPO86LrqXpyzZPmw/4vFUO9zeH9AZ0cLqvvty2frNWzgvoLNqcECBtYotyjupjGAB1GzQq5VTKL2bM2TI1YsyJO9tDSuYYcGxZl/DRIVkHOdahak9CqpWHdQw+czzoWQJ25h+0jspBrPbzR44O+3AddXXh8SUtgYt9RKu2kr+V/CFNOmj0wMoqT7vqJuxRDw+O26UO9mI/5hi496hZzcf5ZzzaZplQGf/91ntLSABfmvc/8sDw3hEiPBEzXBDPIchiq20Z/QptCD15JKu91N4PnhM6eTUhc2VhVw4qk5fxp4y8R4JFHJIOa2hjPKbBuA21+tMsfRX+NRh9R+t27MALdZfaFMUPoWpTXLEhljg9BXvdM2JXvzSzwzYqW4IsMa9knruhx/qXYWuW3JUUojTOCp3X8xxYFHx1jf6d2Dy+fAk5zkeuakWIPbPb3h1TVLngcTR2S8pLLgZz0bzveEzIKnaLi+42gMBRN6qvdh9oug70ygb/WWIwtojGE5q/EjzwN7qe7kvtRG9NCV6Sw/aoa+ktp6m1HuKPJaFUW/1zYOfrwt/OC0aArP3yBPEU7SwGPlOrhY2dSK1HuISErmIuB9rc+/Sl9LJ7gZ9UnDd8j7fia3J/f2jgH8R8+tMRGD5H3XUvqXha2fR8X3bkUr75J+v/i0XQYFi9h94JUsVUXeo9ve0Xms6xaUE5r8SDo8C/kzE1SBx5w6kU2HUSUopcMeqv4q0x1OoxDV53r25AR0QP39QNd9S+904P39sTekXPJd3XLt4/vsPQxMbo9x3uBayM9hPjs9PtqGdHXCVGF4O/DGmoxhJ1sm5nlFFqyNbQF/b7zB6YK7DoWt8ullL3QCt/DbPDhDU3jKLSqzaMIEvOaALqxoHQdbn+EodTxKzpsVl9x38RMKkakukj3+nnyvqpL+XbawhkGkf5ojzZsm97A5/d43/gIzvvfnaL5bkA14Kvy9zbyuBbwpsX5kJ58J/D9roEfpAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAA
+  </AppendedData>
+</VTKFile>
+
+<!-- Created by Chaste version 2018.1.535b2db (with uncommitted modifications) on Wed, 06 Nov 2019 23:17:44 +0000.  Chaste was built on Thu, 07 Nov 2019 07:43:15 +0000 by machine (uname) 'Darwin' using settings: Debug.  Checked-out project versions: ChasteMembrane=Unknown; EpithelialFission=27528M; LabellingIndex=Unknown; LiverMetastic=Unknown; YeastColumn=Unknown.
+-->

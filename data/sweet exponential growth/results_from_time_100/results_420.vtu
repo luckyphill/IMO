@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian" header_type="UInt32" compressor="vtkZLibDataCompressor">
+  <UnstructuredGrid>
+    <Piece NumberOfPoints="96"                   NumberOfCells="0"                   >
+      <PointData>
+        <DataArray type="Float64" Name="Cell types" format="appended" RangeMin="1"                    RangeMax="1"                    offset="0"                   />
+        <DataArray type="Float64" Name="Process rank" format="appended" RangeMin="0"                    RangeMax="0"                    offset="52"                  />
+      </PointData>
+      <CellData>
+      </CellData>
+      <Points>
+        <DataArray type="Float64" Name="Vertex positions" NumberOfComponents="3" format="appended" RangeMin="0.466223588"          RangeMax="5.1842037367"         offset="96"                  />
+      </Points>
+      <Cells>
+        <DataArray type="Int64" Name="connectivity" format="appended" RangeMin=""                     RangeMax=""                     offset="2324"                />
+        <DataArray type="Int64" Name="offsets" format="appended" RangeMin=""                     RangeMax=""                     offset="2340"                />
+        <DataArray type="UInt8" Name="types" format="appended" RangeMin=""                     RangeMax=""                     offset="2356"                />
+      </Cells>
+    </Piece>
+  </UnstructuredGrid>
+  <AppendedData encoding="base64">
+   _AQAAAACAAAAAAwAAFAAAAA==eJxjYACBD/YMo/QoPQJpAIIHcaE=AQAAAACAAAAAAwAADwAAAA==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
+  </AppendedData>
+</VTKFile>
+
+<!-- Created by Chaste version 2018.1.535b2db (with uncommitted modifications) on Wed, 06 Nov 2019 23:17:48 +0000.  Chaste was built on Thu, 07 Nov 2019 07:43:15 +0000 by machine (uname) 'Darwin' using settings: Debug.  Checked-out project versions: ChasteMembrane=Unknown; EpithelialFission=27528M; LabellingIndex=Unknown; LiverMetastic=Unknown; YeastColumn=Unknown.
+-->

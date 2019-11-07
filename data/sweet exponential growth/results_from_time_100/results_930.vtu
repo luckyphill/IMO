@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian" header_type="UInt32" compressor="vtkZLibDataCompressor">
+  <UnstructuredGrid>
+    <Piece NumberOfPoints="120"                  NumberOfCells="0"                   >
+      <PointData>
+        <DataArray type="Float64" Name="Cell types" format="appended" RangeMin="1"                    RangeMax="1"                    offset="0"                   />
+        <DataArray type="Float64" Name="Process rank" format="appended" RangeMin="0"                    RangeMax="0"                    offset="56"                  />
+      </PointData>
+      <CellData>
+      </CellData>
+      <Points>
+        <DataArray type="Float64" Name="Vertex positions" NumberOfComponents="3" format="appended" RangeMin="0.42510682051"        RangeMax="5.7226935859"         offset="104"                 />
+      </Points>
+      <Cells>
+        <DataArray type="Int64" Name="connectivity" format="appended" RangeMin=""                     RangeMax=""                     offset="2864"                />
+        <DataArray type="Int64" Name="offsets" format="appended" RangeMin=""                     RangeMax=""                     offset="2880"                />
+        <DataArray type="UInt8" Name="types" format="appended" RangeMin=""                     RangeMax=""                     offset="2896"                />
+      </Cells>
+    </Piece>
+  </UnstructuredGrid>
+  <AppendedData encoding="base64">
+   _AQAAAACAAADAAwAAFgAAAA==eJxjYACBD/YMo/QoPUoPORoAKK+OCQ==AQAAAACAAADAAwAAEQAAAA==eJxjYBgFo2AUDFUAAAPAAAE=AQAAAACAAABACwAAAggAAA==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
+  </AppendedData>
+</VTKFile>
+
+<!-- Created by Chaste version 2018.1.535b2db (with uncommitted modifications) on Wed, 06 Nov 2019 23:17:51 +0000.  Chaste was built on Thu, 07 Nov 2019 07:43:15 +0000 by machine (uname) 'Darwin' using settings: Debug.  Checked-out project versions: ChasteMembrane=Unknown; EpithelialFission=27528M; LabellingIndex=Unknown; LiverMetastic=Unknown; YeastColumn=Unknown.
+-->
