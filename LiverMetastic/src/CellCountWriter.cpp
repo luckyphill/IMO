@@ -27,7 +27,11 @@ void CellCountWriter<ELEMENT_DIM, SPACE_DIM>::VisitAnyPopulation(AbstractCellPop
 template<unsigned ELEMENT_DIM, unsigned SPACE_DIM>
 void CellCountWriter<ELEMENT_DIM, SPACE_DIM>::Visit(MeshBasedCellPopulation<ELEMENT_DIM, SPACE_DIM>* pCellPopulation)
 {
-    VisitAnyPopulation(pCellPopulation);
+    std::list<CellPtr> cells = pCellPopulation->rGetCells();
+    if (PetscTools::AmMaster())
+    {
+        *this->mpOutStream << cells.size();
+    }
 }
 
 template<unsigned ELEMENT_DIM, unsigned SPACE_DIM>
